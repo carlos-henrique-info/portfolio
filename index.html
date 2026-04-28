@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlos Henrique</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div id="cursor"></div>
+  <canvas id="canvas"></canvas>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo"><a href="#hero"><span>DEV.IO</span></a></div>
+    <ul>
+      <li><a href="#about">SOBRE</a></li>
+      <!-- <li><a href="#skills">SKILLS</a></li> -->
+      <li><a href="#projects">PROJETOS</a></li>
+      <li><a href="#contact">CONTATO</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="hero">
+    <p class="hero-pre">// INICIANDO SISTEMA...</p>
+    <h1 class="hero-name">Carlos <span class="accent">Henrique</span><br>Pedroso</h1>
+    <div id="typewriter"><span id="tw-text"></span><span class="cursor-blink"></span></div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn">VER PROJETOS</a>
+      <a href="#contact" class="btn secondary">CONTATO</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-label">// MÓDULO_01</div>
+    <h2 class="sec-title fade-in">SOBRE MIM</h2>
+    <p class="sec-line fade-in">cat about.txt</p>
+    <div class="about-grid">
+      <div class="terminal-box fade-in">
+        <div class="terminal-bar">
+          <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+          <span style="margin-left:auto;font-size:.7rem;color:var(--text-dim)">bash — 80×24</span>
+        </div>
+        <div class="terminal-content">
+          <p><span class="prompt">user@dev</span>:<span class="cmd">~$</span> whoami</p>
+          <p style="color:var(--neon-green);margin-left:1rem">Desenvolvedor Full-Stack; Analísta de Cyber Segurança em formação</p>
+          <p><span class="prompt">user@dev</span>:<span class="cmd">~$</span> cat localização.txt</p>
+          <p style="color:var(--neon-green);margin-left:1rem">Brasil 🇧🇷</p>
+          <p><span class="prompt">user@dev</span>:<span class="cmd">~$</span> echo $STATUS</p>
+          <p style="color:var(--neon-pink);margin-left:1rem">Disponível para projetos</p>
+          <p><span class="prompt">user@dev</span>:<span class="cmd">~$</span> <span class="cursor-blink"></span></p>
+        </div>
+      </div>
+      <div class="about-text fade-in">
+        <h3>OLHANDO_PARA_O_FUTURO</h3>
+        <p>Estruturando projetos de desenvolvimento; Adquirindo conhecimentos de pentest; Arquitetando e implementando estruturas robustas em redes on-premisses; passando conhecimentos adiante...</p>
+        <div class="about-stats">
+          <div class="stat-box"><div class="stat-num">3+</div><div class="stat-label">ANOS DE EXP</div></div>
+          <div class="stat-box"><div class="stat-num">Público/Privado</div><div class="stat-label">SETORES ATENDIDOS</div></div>
+          <div class="stat-box"><div class="stat-num">10+</div><div class="stat-label">TECNOLOGIAS</div></div>
+          <div class="stat-box"><div class="stat-num">100%</div><div class="stat-label">DEDICAÇÃO</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sec-label">// MÓDULO_03</div>
+    <h2 class="sec-title fade-in">PROJETOS</h2>
+    <p class="sec-line fade-in">git log --oneline --all</p>
+    <div class="projects-grid">
+      <div class="project-card fade-in">
+        <div class="project-id">PRJ_001 // 2026</div>
+        <div class="project-title">CADERNETA DIGITAL</div>
+        <p class="project-desc">Diário de classe do professor feito com macro no excel. Essa caderneta é programada para não apagar os dados sem o concentimento do professor.</p>
+        <div class="project-tags"><span class="tag">EXCEL</span><span class="tag">VBA</span><span class="tag">ONEDRIVE</span></div>
+        <div class="project-links">
+          <a href="#" class="plink">→ DEMO</a>
+          <a href="#" class="plink">→ GITHUB</a>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-id">PRJ_002 // 2026</div>
+        <div class="project-title">TO-DO-LIST BÁSICA</div>
+        <p class="project-desc">To-do-list feita com tecnologias básicas de front-end</p>
+        <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JAVASCRIPT</span></div>
+        <div class="project-links">
+          <a href="#" class="plink">→ DEMO</a>
+          <a href="#" class="plink">→ GITHUB</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sec-label">// MÓDULO_04</div>
+    <h2 class="sec-title fade-in">CONTATO</h2>
+    <p class="sec-line fade-in">traceroute https://seu-novo-projeto.com</p>
+    <div class="contact-grid">
+      <div class="contact-info fade-in">
+        <p>Se você tem um projeto interessante, uma proposta ou só quer trocar uma ideia sobre tecnologia, me manda uma mensagem!</p>
+        <div class="contact-links">
+          <a href="mailto:carloshpedrosodss@gmail.com" class="contact-item" target="_blank"><span class="contact-icon">✉</span> carloshpedrosodss@gmail.com</a>
+          <a href="https://github.com/carlos-henrique-info" class="contact-item" target="_blank"><span class="contact-icon">⌥</span> github.com/carlos-henrique-info</a>
+          <a href="https://linkedin.com/in/carloshpedroso" class="contact-item" target="_blank"><span class="contact-icon">◈</span> linkedin.com/in/carloshpedroso</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>DESENVOLVIDO POR <span>CARLOS HENRIQUE</span> // TODOS OS DIREITOS RESERVADOS © 2026</p>
+</footer>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
